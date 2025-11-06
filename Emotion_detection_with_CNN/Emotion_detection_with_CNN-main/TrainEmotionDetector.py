@@ -6,7 +6,7 @@ from keras.layers import Conv2D, MaxPooling2D, Dense, Dropout, Flatten
 from keras.optimizers import Adam
 from keras.preprocessing.image import ImageDataGenerator
 
-# Initialize image data generator with rescaling
+# Initialize image data generator with rescalingg
 train_data_gen = ImageDataGenerator(rescale=1./255)
 validation_data_gen = ImageDataGenerator(rescale=1./255)
 
